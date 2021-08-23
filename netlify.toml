@@ -1,9 +1,12 @@
 [build]
 publish = "_site"
-command = "jekyll build"
+command = 'jekyll build --baseurl="$DEPLOY_PRIME_URL"'
 
-# [context.production]
-# command = "hugo --environment=production"
+[build.environment]
+RUBY_VERSION = "2.6.3"
+
+[context.production]
+command = "jekyll build"
 
 [[redirects]]
 from = "/*"
