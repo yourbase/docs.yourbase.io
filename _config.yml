@@ -31,6 +31,7 @@ twitter_username: YourBaseIO
 github_username:  yourbase
 matomo_url: https://web-analytics.yourbase.io/
 logo: "/images/logo.png"
+repository: yourbase/docs.yourbase.io
 
 # Build settings
 remote_theme: pmarsceill/just-the-docs
