@@ -1,14 +1,9 @@
 [build]
 publish = "_site"
-command = 'echo "url: $DEPLOY_PRIME_URL" > _deploy_config.yml && jekyll build --config=_config.yml,_deploy_config.yml'
+command = 'echo "url: $DEPLOY_PRIME_URL" > _config_deploy.yml && jekyll build --config=_config.yml,_config_dev.yml,_config_deploy.yml'
 
 [build.environment]
 RUBY_VERSION = "2.6.3"
 
 [context.production]
 command = "jekyll build"
-
-[[redirects]]
-from = "/*"
-to = "/404.html"
-status = 404
