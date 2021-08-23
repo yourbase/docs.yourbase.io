@@ -1,6 +1,6 @@
 [build]
 publish = "_site"
-command = 'jekyll build --baseurl="$DEPLOY_PRIME_URL"'
+command = 'echo "url: $DEPLOY_PRIME_URL" > _deploy_config.yml && jekyll build --config=_config.yml,_deploy_config.yml'
 
 [build.environment]
 RUBY_VERSION = "2.6.3"
