@@ -60,7 +60,7 @@ This pair of settings lets YourBase Test Acceleration work with your existing sh
 
 `Default`: `(unset)`
 
-When set to a valid license key, YourBase Test Acceleration will be unlocked for use after the end of the free trial. Email hi@yourbase.io to obtain a license key.
+When set to a valid license key, YourBase Test Acceleration will be unlocked for use after the end of the free trial. Email [hi@yourbase.io](mailto:hi@yourbase.io) to obtain a license key.
 
 ---
 
@@ -207,7 +207,7 @@ Turn it off, if you want to opt out of sending usage statistics and error report
 
 When on, YourBase Test Acceleration will use a slower tracing algorithm that is less prone to conflicts with other packages than the default. 
 
-We recommend reaching out to support@yourbase.io if you are encountering this scenario, and only enabling this if you experience issues with the default algorithm. 
+We recommend reaching out to [support@yourbase.io](mailto:support@yourbase.io) if you are encountering this scenario, and only enabling this if you experience issues with the default algorithm. 
 
 ---
 

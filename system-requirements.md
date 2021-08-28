@@ -33,4 +33,4 @@ The library supports integration with the following code coverage reporting tool
 - [SonarQube](https://www.sonarqube.org/)
 - [Codecov](https://about.codecov.io/)
 
-Reach out to support@yourbase.io if you have questions about support for your favorite coverage tool.
+Reach out to [support@yourbase.io](mailto:support@yourbase.io) if you have questions about support for your favorite coverage tool.

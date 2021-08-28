@@ -17,7 +17,7 @@ At the core of YourBase Test Acceleration is the YourBase Dependency Graph that 
 
 ---
 
-## Is it compatible with your tech-stack and infrastructure?
+## Is it compatible with my tech-stack and infrastructure?
 The library currently supports [testing frameworks for Python](system-requirements#supported-languages--testing-frameworks). Check the [complete list of system requirements here](system-requirements).
 
 ---
@@ -27,7 +27,7 @@ The library supports unit tests and integration tests that call code from within
 
 ---
 
-## Will it provide benefits at your scale? 
+## Will it provide benefits at my scale? 
 The library has the most benefits for use-cases where test runs are taking over 10 minutes. [Our customers have reduced their test run times by up to 90%](https://yourbase.io/case-studies/), for example, where one customer was able to skip over 99% of the 11,000+ tests in the suite using our library.
 
 ---
@@ -38,4 +38,4 @@ Yes. Under no circumstance do your code or your dependency graphs ever touch You
 ---
 
 ## Is it stable?
-The library is currently in Beta. While we're confident in the reliability of our offering, we're making improvements all the time. If you identify any issues, please let us know at support@yourbase.io and we will look into them quickly.
+The library is currently in Beta. While we're confident in the reliability of our offering, we're making improvements all the time. If you identify any issues, please let us know at [support@yourbase.io](mailto:support@yourbase.io) and we will look into them quickly.

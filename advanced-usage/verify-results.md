@@ -35,7 +35,7 @@ You can follow the below steps to verify:
 3. Run ALL your tests as usual.
 4. Check your logs manually:
    - If YourBase Test Acceleration is accelerating tests correctly, it will log the total amount of time that could have been saved, to stdout or your log file.
-   - Else if, it's accelerating tests incorrectly, i.e. it's skipping one or more tests that would have failed, then it'll complain about this loudly by outputting the details of the errors in your log file or your shell-prompt. _Note that if this happens, it means that there's a bug in YourBase Test Acceleration’s tracing or acceleration._ Please report these to bugs@yourbase.io.
+   - Else if, it's accelerating tests incorrectly, i.e. it's skipping one or more tests that would have failed, then it'll complain about this loudly by outputting the details of the errors in your log file or your shell-prompt. _Note that if this happens, it means that there's a bug in YourBase Test Acceleration’s tracing or acceleration._ Please report these to [bugs@yourbase.io](mailto:bugs@yourbase.io).
 5. Ensure that you disable [YOURBASE_OBSERVATION_MODE](../reference/configuration-options.md/#yourbase_observation_mode) only after YourBase Test Acceleration accelerates tests correctly.
 
 ---

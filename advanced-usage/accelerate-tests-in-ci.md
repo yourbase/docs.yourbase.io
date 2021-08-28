@@ -50,7 +50,7 @@ Run tests as usual.
 The above steps will set up YourBase Test Acceleration to synchronize dependency graphs against the specified storage location when your tests run on your CI environment.
 
 _Note:_
-_A dependency graph is synchronized with the specified remote storage location only when:_
+_A dependency graph is synchronized with the specified remote storage location:_
 - _Only when it's generated from a successful build, and_
 - _Only if it's created from a clean working tree, and_
 - _Only if it's created from committed code changes. A dependency graph that is created from uncommitted code changes is stored only locally, i.e., it can’t be synchronized against a remote location._
