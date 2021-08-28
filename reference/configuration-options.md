@@ -3,8 +3,7 @@ layout: default
 title: Configuration options
 nav_order: 1
 parent: Reference
-grand_parent: Test acceleration
-permalink: /test-acceleration/reference/configuration-options
+permalink: reference/configuration-options
 ---
 
 # Configuration options

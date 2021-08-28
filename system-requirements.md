@@ -1,10 +1,9 @@
 ---
 layout: default
 title: System requirements
-nav_order: 1
-parent: Test acceleration
+nav_order: 2
 has_children: false
-permalink: /test-acceleration/system-requirements
+permalink: /system-requirements
 ---
 
 # System requirements

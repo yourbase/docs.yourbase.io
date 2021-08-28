@@ -1,9 +1,8 @@
 ---
 layout: default
 title: How it works
-nav_order: 3
-parent: Test acceleration
-permalink: /test-acceleration/how-it-works
+nav_order: 4
+permalink: /how-it-works
 ---
 
 # How it works

@@ -3,8 +3,7 @@ layout: default
 title: Phased rollout
 nav_order: 1
 parent: Deploying
-grand_parent: Test acceleration
-permalink: /test-acceleration/rollout
+permalink: /rollout
 ---
 
 # Rollout recommendation

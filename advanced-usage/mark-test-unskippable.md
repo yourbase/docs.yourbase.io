@@ -3,8 +3,7 @@ layout: default
 title: Mark a test as unskippable
 nav_order: 1
 parent: Advanced usage
-grand_parent: Test acceleration
-permalink: /test-acceleration/mark-test-unskippable
+permalink: /mark-test-unskippable
 ---
 
 # Mark a test as unskippable

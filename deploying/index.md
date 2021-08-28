@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Deploying
-nav_order: 4
-parent: Test acceleration
+nav_order: 5
 has_children: true
-permalink: /test-acceleration/deploying
+permalink: /deploying
 ---
 
 # Deploying

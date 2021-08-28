@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Advanced usage
-nav_order: 5
-parent: Test acceleration
+nav_order: 6
 has_children: true
-permalink: /test-acceleration/advanced-usage
+permalink: /advanced-usage
 ---
 
 # Advanced usage

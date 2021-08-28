@@ -3,8 +3,7 @@ layout: default
 title: Disable
 nav_order: 3
 parent: Deploying
-grand_parent: Test acceleration
-permalink: /test-acceleration/disable
+permalink: /disable
 ---
 
 # Disable YourBase Test Acceleration

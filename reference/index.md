@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Reference
-nav_order: 6
-parent: Test acceleration
+nav_order: 7
 has_children: true
-permalink: /test-acceleration/reference
+permalink: /reference
 ---
 
 # Reference

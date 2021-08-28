@@ -3,8 +3,7 @@ layout: default
 title: Verify test selection
 nav_order: 2
 parent: Advanced usage
-grand_parent: Test acceleration
-permalink: /test-acceleration/verify
+permalink: /verify
 ---
 
 # Verify test selection

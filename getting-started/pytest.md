@@ -3,8 +3,7 @@ layout: default
 title: Pytest
 nav_order: 1
 parent: Getting started
-grand_parent: Test acceleration
-permalink: /test-acceleration/getting-started/pytest
+permalink: /getting-started/pytest
 ---
 
 # Try in pytest

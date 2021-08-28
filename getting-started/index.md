@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Getting started
-nav_order: 2
-parent: Test acceleration
+nav_order: 3
 has_children: true
-permalink: /test-acceleration/getting-started
+permalink: /getting-started
 ---
 
 # Getting started

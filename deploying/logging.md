@@ -3,8 +3,7 @@ layout: default
 title: Logging
 nav_order: 2
 parent: Deploying
-grand_parent: Test acceleration
-permalink: /test-acceleration/logging
+permalink: /logging
 ---
 
 # Logging

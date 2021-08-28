@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Releases
-nav_order: 8
-parent: Test acceleration
+nav_order: 9
 has_children: false
-permalink: /test-acceleration/releases
+permalink: /releases
 ---
 
 # Release history

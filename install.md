@@ -2,9 +2,8 @@
 layout: default
 title: Installation
 nav_order: 2
-parent: Test acceleration
 has_children: false
-permalink: /test-acceleration/install
+permalink: /install
 ---
 
 # Install

@@ -3,8 +3,7 @@ layout: default
 title: Integrate code coverage tools
 nav_order: 3
 parent: Advanced usage
-grand_parent: Test acceleration
-permalink: /test-acceleration/integrate-code-coverage-tools
+permalink: /integrate-code-coverage-tools
 ---
 
 # Integrate code coverage tools

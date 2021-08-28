@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Security
-nav_order: 7
-parent: Test acceleration
+nav_order: 8
 has_children: false
-permalink: /test-acceleration/security
+permalink: /security
 ---
 
 # Security

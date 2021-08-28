@@ -3,8 +3,7 @@ layout: default
 title: Common issues
 nav_order: 2
 parent: Reference
-grand_parent: Test acceleration
-permalink: /test-acceleration/common-issues
+permalink: /common-issues
 ---
 
 # Common issues

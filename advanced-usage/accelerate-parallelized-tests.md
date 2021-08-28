@@ -3,8 +3,7 @@ layout: default
 title: Accelerate parallelized tests
 nav_order: 6
 parent: Advanced usage
-grand_parent: Test acceleration
-permalink: /test-acceleration/advanced-usage/accelerate-parallelized-tests
+permalink: /advanced-usage/accelerate-parallelized-tests
 ---
 
 # Accelerate parallelized tests

@@ -3,8 +3,7 @@ layout: default
 title: Accelerate tests in CI
 nav_order: 4
 parent: Advanced usage
-grand_parent: Test acceleration
-permalink: /test-acceleration/advanced-usage/accelerate-tests-in-ci
+permalink: /advanced-usage/accelerate-tests-in-ci
 ---
 
 # Integrate with CI

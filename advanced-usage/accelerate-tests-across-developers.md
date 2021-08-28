@@ -3,8 +3,7 @@ layout: default
 title: Accelerate tests locally across developers
 nav_order: 5
 parent: Advanced usage
-grand_parent: Test acceleration
-permalink: /test-acceleration/accelerate-locally-across-developers
+permalink: /accelerate-locally-across-developers
 ---
 
 # Accelerate tests locally across developers
