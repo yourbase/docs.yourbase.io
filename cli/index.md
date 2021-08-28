@@ -1,10 +1,6 @@
 ---
-layout: default
-title: CI and CLI
-nav_exclude: true
-nav_order: 2
+nav_order: 3
 has_children: true
-permalink: /ci-cli
 nav_exclude: true
 ---
 
