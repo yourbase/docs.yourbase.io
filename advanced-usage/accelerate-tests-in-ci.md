@@ -18,8 +18,7 @@ The following section guides you to accelerate tests in CI.
 ### Step 1: Set up shared dependency graph
 YourBase Test Acceleration currently supports storing [shared dependency graphs](../how-it-works.md#shared-dependency-graph) only in AWS S3 buckets. The following sections help you set up your project to use a shared dependency graph in your CI environment.
 
-1. Set YOURBASE_REMOTE_CACHE
-Set [YOURBASE_REMOTE_CACHE](../reference/configuration-options.md#yourbase_remote_cache)  in your environment to a valid S3 bucket location.
+1. Set [YOURBASE_REMOTE_CACHE](../reference/configuration-options.md#yourbase_remote_cache)  in your environment to a valid S3 bucket location.
 
     ```sh
     YOURBASE_REMOTE_CACHE=s3://<bucketname>[/key/prefix]
@@ -46,7 +45,7 @@ Add YourBase Test Acceleration to your project via `requirements.txt` or whateve
 ### Step 3: Run tests
 Run tests as usual.
 
-## Conclusion
+## That's it!
 The above steps will set up YourBase Test Acceleration to synchronize dependency graphs against the specified storage location when your tests run on your CI environment.
 
 _Note:_

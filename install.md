@@ -9,14 +9,11 @@ permalink: /install
 # Install
 {:.no_toc}
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
+Table of contents
+{: .text-delta }
+
 1. TOC
 {:toc}
-</details>
 
 ---
 
@@ -27,7 +24,7 @@ Make sure that the YourBase Test Acceleration library [supports your technical s
 
 ## Installation
 
-YourBase Test Acceleration library can be installed with either pip or poetry package managers.
+YourBase Test Acceleration library can be installed with either [pip](https://pip.pypa.io/en/stable/) or [poetry](https://python-poetry.org/docs/) package managers.
 
 
 ### Using pip

@@ -16,14 +16,14 @@ You can integrate YourBase Test Acceleration smoothly with your existing paralle
 You’re already successfully running parallel tests across multiple shards. 
 
 ## Prerequisites:
-You'll need remove any test splitting solution that you may already have in-place. 
+You'll need to remove any test splitting solution that you may already have in-place. 
 
 This is required because YourBase Test Acceleration is effective only when the test-splitting solution is sticky, i.e. tests don’t get reshuffled across shards when other tests are added or removed. Since most test-splitting solutions aren’t sticky, YourBase Test Acceleration provides its own built-in sticky test-splitting solution.
 
 ## Steps to accelerate parallelized tests:
 1. Remove your existing test splitting tools, if any. It should appear as if each shard will run the entire test suite.
-2. Set [YOURBASE_COHORT_COUNT](../reference/configuration-options.md#yourbase_cohort_count) to your number of cohorts / shards
-3. Set [YOURBASE_ACTIVE_COHORT](../reference/configuration-options.md#yourbase_active_cohort) to the ID of the current cohort / shard – starting from 1.
+2. Set [YOURBASE_COHORT_COUNT](../environment-variables.md#yourbase_cohort_count) to your number of cohorts / shards
+3. Set [YOURBASE_ACTIVE_COHORT](../environment-variables.md#yourbase_active_cohort) to the ID of the current cohort / shard – starting from 1.
    
     ```bash
     # For example, if you have 5 shards and are running the 4th shard, you’ll set:

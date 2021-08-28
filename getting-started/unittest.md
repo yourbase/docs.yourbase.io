@@ -11,14 +11,11 @@ permalink: /getting-started/unittest
 
 This section notes how to run YourBase Test Acceleration in your own project that uses the [unittest testing framework](https://docs.python.org/3/library/unittest.html). For a deeper walkthrough of the library using a sample project, [see here](pytest.md).
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
+Table of contents
+{: .text-delta }
+
 1. TOC
 {:toc}
-</details>
 
 ---
 

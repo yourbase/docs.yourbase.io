@@ -11,14 +11,11 @@ permalink: /getting-started/pytest
 
 This page will walk you through how to run YourBase Test Acceleration with the [pytest testing framework](https://docs.pytest.org/en/6.2.x/). The quickest way to get started with it is to use it in the sample project provided.
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
+Table of contents
+{: .text-delta }
+
 1. TOC
 {:toc}
-</details>
 
 ---
 
@@ -120,7 +117,7 @@ You can see form the logs that the existing dependency graph [link to How it wor
 
 ---
 
-## Conclusion
+## That's it!
 {:.no_toc}
 
 You just ran YourBase Test Acceleration on a project that uses the pytest testing framework. Now, you’re ready to use it in your own project. 

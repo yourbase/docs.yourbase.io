@@ -48,4 +48,7 @@ You can configure your code coverage tool such that YourBase Test Acceleration c
 
 On your CI, you can reduce the build-pass threshold for the percentage of tests covered, so that you can use YourBase Test Acceleration seamlessly.
 
-### Note: We highly recommend that you make use of [Option 1](#option-1-configure-code-coverage-tool-to-fill-missing-coverage-data) instead of [Option 2](#option-2-reconfigure-build-failure-threshold). 
+### Note: We highly recommend that you make use of [Option 1](#option-1-configure-code-coverage-tool-to-fill-missing-coverage-data) instead of [Option 2](#option-2-reconfigure-build-failure-threshold).
+---
+
+Reach out to [support@yourbase.io](mailto:support@yourbase.io) if you have questions about support for your favorite coverage tool.

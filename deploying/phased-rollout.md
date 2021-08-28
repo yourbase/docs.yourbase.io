@@ -9,18 +9,12 @@ permalink: /rollout
 # Rollout recommendation
 {:.no_toc}
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
 To safely accelerate tests on production, we recommend that you first run YourBase Test Acceleration in its [Observation Mode](advanced-usage/verify-results.md), and manually [verify the output logged](advanced-usage/verify-results.md#verification-steps).
 
 We propose the rollout to be done in the following 3 phases:
+
+1. TOC
+{:toc}
 
 ## Phase 1: Test locally
 This phase will synchronize your code’s dependency graph on your local machine storage. Hence, after completing this phase, you’ll see the tests on your branch running faster only on your local machine.
@@ -30,7 +24,7 @@ In your development branch:
 1. [Install YourBase Test Acceleration](install.md) locally. 
 2. Run YourBase Test Acceleration in [Observation Mode](advanced-usage/verify-results.md).
 3. Ensure that YourBase Test Acceleration [accelerates your tests correctly](advanced-usage/verify-results.md#verification-steps), or resolve any issues that arise.
-4. [Disable Observation Mode](reference/configuration-options.md#yourbase_observation_mode).
+4. [Disable Observation Mode](../environment-variables.md#yourbase_observation_mode).
 5. Run your tests. 
 
 ---
@@ -47,18 +41,18 @@ In your CI environment:
       - Tip: It may be easier to set up and debug the remote cache from your local environment before configuring it in the CI.
    
    2. Set up the following configuration variables for your CI environment:
-      - [YOURBASE_LICENSE_KEY](reference/configuration-options.md#yourbase_license_key)
-      - [YOURBASE_ACCEPT_TOS](reference/configuration-options.md#yourbase_accept_tos)
+      - [YOURBASE_LICENSE_KEY](../environment-variables.md#yourbase_license_key)
+      - [YOURBASE_ACCEPT_TOS](../environment-variables.md#yourbase_accept_tos)
 
 ### Step 2. Install in test branch
 {: .no_toc }
 
 In your test branch, do the following:
    1. Install YourBase Test Acceleration to your project via `requirements.txt` or whatever other mechanism you use to install your dependencies in your CI environment.
-   2. [Enable Observation Mode](reference/configuration-options.md#yourbase_observation_mode).
+   2. [Enable Observation Mode]((../environment-variables.md#yourbase_observation_mode)).
    3. Run your tests as usual.
    4. Ensure that [YourBase Test Acceleration accelerates these tests correctly](advanced-usage/verify-results.md#verification-steps), or resolve any issues that arise.
-   5. [Disable Observation Mode](reference/configuration-options.md#yourbase_observation_mode).
+   5. [Disable Observation Mode]((../environment-variables.md#yourbase_observation_mode)).
    6. Run your tests as usual.
 
 
@@ -69,11 +63,11 @@ In your main branch, before enabling Yourbase Test Acceleration for full product
 
    1. [Install YourBase Test Acceleration](../install.md) to your project via `requirements.txt` or whatever other mechanism you use to install your dependencies in your CI environment.
    2. Set `YOURBASE_DISABLE=true` and ensure CI continues to run as expected. 
-   3. [Enable Observation Mode](reference/configuration-options.md#yourbase_observation_mode).
+   3. [Enable Observation Mode]((../environment-variables.md#yourbase_observation_mode)).
    4. Set `YOURBASE_DISABLE=false`. 
    5. Run your tests as usual. 
    6. Ensure that [YourBase Test Acceleration accelerates these tests correctly](advanced-usage/verify-results.md#verification-steps), or resolve any issues that arise. 
-   7. [Disable Observation Mode](reference/configuration-options.md#yourbase_observation_mode).
+   7. [Disable Observation Mode]((../environment-variables.md#yourbase_observation_mode)).
    8. Run your tests as usual.
 
 
@@ -88,5 +82,5 @@ Do the following starting with a group of beta users, slowly rolling out to the 
 1. Set up the [shared Dependency Graph for use by your local machine](advanced-usage/accelerate-tests-across-developers.md).
 2. [Install YourBase Test Acceleration](../install.md) to your project via `requirements.txt` or whatever other mechanism you use to install your dependencies in your local environment
 3. Set up the following configuration variables for your local environment: 
-   - [YOURBASE_LICENSE_KEY](reference/configuration-options.md#yourbase_license_key)
-   - [YOURBASE_ACCEPT_TOS](reference/configuration-options.md#yourbase_accept_tos)
+   - [YOURBASE_LICENSE_KEY](../environment-variables.md#yourbase_license_key)
+   - [YOURBASE_ACCEPT_TOS](../environment-variables.md#yourbase_accept_tos)

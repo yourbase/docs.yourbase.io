@@ -7,7 +7,7 @@ permalink: /disable
 ---
 
 # Disable YourBase Test Acceleration
-If for any reason, you need to disable YourBase Test Acceleration, you can simply set the environment variable [YOURBASE_DISABLE](../reference/configuration-options.md#yourbase_disable) to true:
+If for any reason, you need to disable YourBase Test Acceleration, you can simply set the environment variable [YOURBASE_DISABLE](../environment-variables.md#yourbase_disable) to true:
 
 ```sh
 export YOURBASE_DISABLE=true
