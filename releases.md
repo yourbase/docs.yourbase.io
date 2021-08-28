@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Releases
-nav_order: 9
+nav_order: 10
 has_children: false
 permalink: /releases
 ---
 
 # Release history
 
-See YourBase Test Acceleration [release history on its PyPI page](https://pypi.org/project/yourbase/#history). 
+See the [release history on our PyPI page](https://pypi.org/project/yourbase/#history). 

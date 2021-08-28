@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Advanced usage
-nav_order: 6
+nav_order: 7
 has_children: true
 permalink: /advanced-usage
 ---

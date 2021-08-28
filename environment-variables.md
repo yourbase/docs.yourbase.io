@@ -1,15 +1,14 @@
 ---
 layout: default
-title: Configuration options
-nav_order: 1
-parent: Reference
-permalink: reference/configuration-options
+title: Environment variables
+nav_order: 6
+permalink: /environment-variables
 ---
 
-# Configuration options
+# Environment variabkes
 {: .no_toc }
 
-This page documents the available configuration options. These operate as environment variables that should be set the same way environment variables are set for your deployment.
+This page documents the available environment variables. These should be set the same way environment variables are set for your deployment.
 
 <details open markdown="block">
   <summary>

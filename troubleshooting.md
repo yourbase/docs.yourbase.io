@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Common issues
-nav_order: 2
-parent: Reference
-permalink: /common-issues
+title: Troubleshooting
+nav_order: 9
+permalink: /troubleshooting
 ---
 
-# Common issues
+# Troubleshooting errors
 {: .no_toc }
 
 This is a list of commonly encountered problems, known issues, and their solutions.
@@ -70,4 +69,4 @@ Tracing overhead is dramatically increased using this flag, so we don't recommen
 
 ## Conflict with plugin pytest-xdist
 
-The YourBase Test Acceleration Test Selection and pytest-xdist [link] plugins have similar goals, reducing the overall test execution time of tests, but take different approaches to solving the problem. As such, there are conflicts when both plugins are enabled. When using the YourBase Test Acceleration Test Selection plugin, please uninstall pytest-xdist or execute pytest-xdist with `NUMCPUS=0`
+The YourBase Test Acceleration Test Selection and [pytest-xdist](https://pypi.org/project/pytest-xdist/) plugins have similar goals, reducing the overall test execution time of tests, but take different approaches to solving the problem. As such, there are conflicts when both plugins are enabled. When using the YourBase Test Acceleration Test Selection plugin, please uninstall pytest-xdist or execute pytest-xdist with `NUMCPUS=0`
