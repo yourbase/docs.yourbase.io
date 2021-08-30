@@ -18,7 +18,7 @@ The following section guides you to accelerate tests in CI.
 ### Step 1: Set up shared dependency graph
 YourBase Test Acceleration currently supports storing [shared dependency graphs](../how-it-works.md#shared-dependency-graph) only in AWS S3 buckets. The following sections help you set up your project to use a shared dependency graph in your CI environment.
 
-1. Set [YOURBASE_REMOTE_CACHE](../reference/configuration-options.md#yourbase_remote_cache)  in your environment to a valid S3 bucket location.
+1. Set [YOURBASE_REMOTE_CACHE](../environment-variables.md#yourbase_remote_cache)  in your environment to a valid S3 bucket location.
 
     ```sh
     YOURBASE_REMOTE_CACHE=s3://<bucketname>[/key/prefix]
@@ -37,7 +37,7 @@ YourBase Test Acceleration currently supports storing [shared dependency graphs]
    export YOURBASE_AWS_SECRET_ACCESS_KEY=<key>
    ```
        
-   _Note: If YourBase Test Acceleration specific environment variables - [YOURBASE_AWS_ACCESS_KEY_ID](../reference/configuration-options.md#yourbase_aws_access_key_id) and [YOURBASE_AWS_SECRET_ACCESS_KEY](../reference/configuration-options.md#yourbase_aws_secret_access_key) are set, YourBase Test Acceleration uses them instead of the system credentials._
+   _Note: If YourBase Test Acceleration specific environment variables - [YOURBASE_AWS_ACCESS_KEY_ID](../environment-variables.md#yourbase_aws_access_key_id) and [YOURBASE_AWS_SECRET_ACCESS_KEY](../environment-variables.md#yourbase_aws_secret_access_key) are set, YourBase Test Acceleration uses them instead of the system credentials._
 
 ### Step 2: Install YourBase Test Acceleration in your CI environment
 Add YourBase Test Acceleration to your project via `requirements.txt` or whatever other mechanism you use to install your dependencies in your CI environment.

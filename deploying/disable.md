@@ -13,4 +13,4 @@ If for any reason, you need to disable YourBase Test Acceleration, you can simpl
 export YOURBASE_DISABLE=true
 ```
 
-To uninstall the package, [see the uninstall instructions](install.md#uninstall).
+To uninstall the package, [see the uninstall instructions](../install.md#uninstall).

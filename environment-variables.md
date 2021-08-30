@@ -27,7 +27,7 @@ Default: `1`
 
 When set alongside [YOURBASE_COHORT_COUNT](#yourbase_cohort_count), tells YourBase Test Acceleration the cohort ID to run. Used for sharded or otherwise parallelized test suites.
 
-See [here](../advanced-usage/accelerate-parallelized-tests.md) to learn to use this in your parallelized test-suite. 
+See [here](advanced-usage/accelerate-parallelized-tests.md) to learn to use this in your parallelized test-suite. 
 
 --- 
 
@@ -38,7 +38,7 @@ Default: `1`
 
 When set alongside [YOURBASE_ACTIVE_COHORT](#yourbase_active_cohort), tells YourBase Test Acceleration how many cohorts the tests should be split into.
 
-This pair of settings lets YourBase Test Acceleration work with your existing sharding or parallelization setup. See here to [learn to use it in your parallelized test setup](../advanced-usage/accelerate-parallelized-tests.md).
+This pair of settings lets YourBase Test Acceleration work with your existing sharding or parallelization setup. See here to [learn to use it in your parallelized test setup](advanced-usage/accelerate-parallelized-tests.md).
 
 ---
 
@@ -60,7 +60,7 @@ When on, YourBase Test Acceleration will not skip tests, and instead, only recor
 
 When this setting is off, YourBase Test Acceleration will optimize your test run-time as usual.
 
-It’s useful to turn this setting on when you’re testing YourBase Test Acceleration before taking it live with your codebase. Learn more about [how to use the Observation mode here](../advanced-usage/verify-results.md).
+It’s useful to turn this setting on when you’re testing YourBase Test Acceleration before taking it live with your codebase. Learn more about [how to use the Observation mode here](advanced-usage/verify-results.md).
 
 ---
 
@@ -70,7 +70,7 @@ Type: `uri`
 Default: `(unset)`
 
 
-When set, this synchronizes [dependency graphs](../how-it-works.md#dependency-graph) generated only from clean working trees—dependency graphs generated from dirty working trees will not be synchronized as they can poison the cache. Use [YOURBASE_SYNC_DIRTY](#yourbase_sync_dirty) to override this behavior.
+When set, this synchronizes [dependency graphs](how-it-works.md#dependency-graph) generated only from clean working trees—dependency graphs generated from dirty working trees will not be synchronized as they can poison the cache. Use [YOURBASE_SYNC_DIRTY](#yourbase_sync_dirty) to override this behavior.
 
 ```sh
 # Without a key prefix
@@ -82,7 +82,7 @@ export YOURBASE_REMOTE_CACHE=s3://my-bucket-name
 export YOURBASE_REMOTE_CACHE=s3://my-bucket-name/my/key/prefix
 ```
 
-This setting is recommended for use when using YourBase Test Acceleration in CI, as the filesystem will not be a dependable store for [dependency graphs](../how-it-works.md#dependency-graph). Learn to [set up a shared dependency graph in your CI here](../advanced-usage/accelerate-tests-in-ci.md).
+This setting is recommended for use when using YourBase Test Acceleration in CI, as the filesystem will not be a dependable store for [dependency graphs](how-it-works.md#dependency-graph). Learn to [set up a shared dependency graph in your CI here](advanced-usage/accelerate-tests-in-ci.md).
 
 ---
 
@@ -93,7 +93,7 @@ Default: `(unset)`
 
 When set alongside [YOURBASE_AWS_SECRET_ACCESS_KEY](#yourbase_aws_secret_access_key), it forces YourBase Test Acceleration to use these credentials over system credentials when interacting with AWS.
 
-These environment variables are recommended for use if your AWS system credentials are fudged for the sake of your tests. Learn to use this [YourBase Test Acceleration specific AWS environment variables here](../advanced-usage/accelerate-tests-in-ci.md#step-1-set-up-shared-dependency-graph).
+These environment variables are recommended for use if your AWS system credentials are fudged for the sake of your tests. Learn to use this [YourBase Test Acceleration specific AWS environment variables here](advanced-usage/accelerate-tests-in-ci.md#step-1-set-up-shared-dependency-graph).
 
 ---
 
@@ -104,7 +104,7 @@ Default: `(unset)`
 
 When set alongside [YOURBASE_AWS_ACCESS_KEY_ID](#yourbase_aws_access_key_id), it forces YourBase Test Acceleration to use these credentials over AWS system credentials when interacting with AWS.
 
-These environment variables are recommended for use if your system credentials are mocked for the sake of your tests. Learn to use this [YourBase Test Acceleration specific AWS environment variables here](../advanced-usage/accelerate-tests-in-ci.md#step-1-set-up-shared-dependency-graph)
+These environment variables are recommended for use if your system credentials are mocked for the sake of your tests. Learn to use this [YourBase Test Acceleration specific AWS environment variables here](advanced-usage/accelerate-tests-in-ci.md#step-1-set-up-shared-dependency-graph)
 
 ---
 
@@ -139,9 +139,9 @@ Type: `bool-ish (0, false, off, 1, true, on)`
 
 Default: `off`
 
-When on, YourBase Test Acceleration will not look in the local filesystem for a [dependency graph](../how-it-works.md#dependency-graph). 
+When on, YourBase Test Acceleration will not look in the local filesystem for a [dependency graph](how-it-works.md#dependency-graph). 
 
-If you’ve set [YOURBASE_REMOTE_CACHE](#yourbase_remote_cache) to a valid location, YourBase Test Acceleration will look up and [synchronize the dependency graph](../how-it-works.md#shared-dependency-graph) with the specified location. 
+If you’ve set [YOURBASE_REMOTE_CACHE](#yourbase_remote_cache) to a valid location, YourBase Test Acceleration will look up and [synchronize the dependency graph](how-it-works.md#shared-dependency-graph) with the specified location. 
 
 Else, if [YOURBASE_REMOTE_CACHE](#yourbase_remote_cache) is not set, YourBase Test Acceleration will do a cold run of your tests—it will run all the tests since it won’t be able to find any dependency graph. 
 
@@ -154,7 +154,7 @@ Type: `bool-ish (0, false, off, 1, true, on)`
 
 Default: `off`
 
-When on, YourBase Test Acceleration will [synchronize dependency graphs](../how-it-works.md#shared-dependency-graph) even if the Git working tree is dirty. 
+When on, YourBase Test Acceleration will [synchronize dependency graphs](how-it-works.md#shared-dependency-graph) even if the Git working tree is dirty. 
 
 This setting is not recommended for use when you run YourBase Test Acceleration locally, as it will poison the remote cache.
 
@@ -173,7 +173,7 @@ Note that, telemetry data never includes your code.
 
 Turn it off, if you want to opt out of sending usage statistics and error reports to YourBase Test Acceleration. 
 
-[Learn more about telemetry data here](../security.md#telemetry).
+[Learn more about telemetry data here](security.md#telemetry).
 
 ---
 
