@@ -1,5 +1,5 @@
 ---
-parent: CI and CLI
+parent: CI and CLI Documentation
 nav_order: 2
 ---
 
