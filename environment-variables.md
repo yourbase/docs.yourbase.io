@@ -6,8 +6,14 @@ permalink: /environment-variables
 ---
 
 # Environment variables
+{: .no_toc }
 
-This page documents the environment variables supported by YourBase Test Acceleration. You should set them in same way you set other environment variables for your deployment.
+Environment variables provide another way to specify configuration options and credentials.
+
+YourBase Test Acceleration supports the following environment variables. You should set them in same way you set other environment variables for your deployment.
+
+- TOC
+{:toc}
 
 ---
 

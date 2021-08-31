@@ -61,7 +61,7 @@ pyenv install --force <PYTHON_VERSION>
 
 ## Incompatibility with Apple machines having the M1 chip
 
-YourBase Test Acceleration doesn't currently support Apple machines running the M1 chip. This is on our roadmap. If this is causing an issue for you, please reach out to us at [hi@yourbase.io](mailto:hi@yourbase.io).
+YourBase Test Acceleration doesn't currently support Apple machines running the M1 chip. This is on our roadmap. If this is causing an issue for you, please reach out to us at [support@yourbase.io](mailto:support@yourbase.io).
 
 ---
 
