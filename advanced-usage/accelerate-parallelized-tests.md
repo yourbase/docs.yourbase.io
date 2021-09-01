@@ -37,4 +37,4 @@ This is required because YourBase Test Acceleration is effective only when the t
 YourBase Test Acceleration will now just-in-time select and run only the tests that are in the current cohort. This selection will be consistent between runs, i.e. given the same cohort ID and total cohorts, a test will always be selected to be run on the same shard for life.
 
 ## Pro tip:
-As an added benefit of YouBase’s sticky splitting of tests, you can schedule a build for each of the sharded pools of tests—to run sharded builds. This works smoothly because YourBase Test Acceleration will merge graphs from multiple shards, for the same commit, which can be used in future builds.
+As an added benefit of YourBase’s sticky splitting of tests, you can schedule a build for each of the sharded pools of tests—to run sharded builds. This works smoothly because YourBase Test Acceleration will merge graphs from multiple shards, for the same commit, which can be used in future builds.
