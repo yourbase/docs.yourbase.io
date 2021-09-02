@@ -80,3 +80,17 @@ _Note that this since flag dramatically increases the tracing overhead, so we do
 ## Conflict with plugin pytest-xdist
 
 YourBase Test Acceleration and [pytest-xdist](https://pypi.org/project/pytest-xdist/) plugins have similar goals, reducing the overall test execution time of tests, but take different approaches to solving the problem. When they're both enabled, there are conflicts. When you're using YourBase Test Acceleration, please uninstall [pytest-xdist](https://pypi.org/project/pytest-xdist/) or execute pytest-xdist with `NUMCPUS=0`.
+
+---
+
+## Cache poisoning
+
+YourBase's acceleration cache can be poisoned when using command-line options to manually select tests (e.g. 'pytest path/to/test.py' or 'pytest -k name_of_test'). If a change causes another test to "want" to run but the test isn't selected by pytest, it will not be queued up to run next time it is.
+
+To work around this issue, blow away the YourBase cache before you change which tests you want to manually run:
+
+```python
+pytest path/to/a/test.py
+rm -rf ~/.cache/yourbase # Run before changing pytest args
+pytest path/to/a/different/test.py
+```
