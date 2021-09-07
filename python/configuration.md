@@ -1,9 +1,10 @@
 <!--
-This file makes sure the URL
+This file makes sure the URLs
 
+   docs.yourbase.io/python/configuration
    docs.yourbase.io/python/configuration.html
 
-continues working.
+continue working.
  -->
 
 <!DOCTYPE html>
