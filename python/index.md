@@ -1,8 +1,9 @@
 <!--
 This file makes sure the URLs
 
-   docs.yourbase.io/build/getting-started
-   docs.yourbase.io/build/getting-started.html
+   docs.yourbase.io/python
+   docs.yourbase.io/python/
+   docs.yourbase.io/python.html
 
 continue working.
  -->
