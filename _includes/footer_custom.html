@@ -1,8 +1,10 @@
-{%- if site.email -%}
-Questions? Be in touch with our team at <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
-{%- endif -%}
-
-{%- if site.homepage -%}
-Learn more about YourBase at <a class="u-email" href="{{ site.homepage }}">{{ site.homepage }}</a>
-{%- endif -%}
-
+<p>
+  {%- if site.email -%}
+  Questions? Be in touch with our team at <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+  {%- endif -%}
+</p>
+<p>
+  {%- if site.homepage -%}
+  Learn more about YourBase at our <a href="{{ site.homepage }}">homepage</a>.
+  {%- endif -%}
+<p>
