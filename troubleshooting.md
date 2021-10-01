@@ -21,6 +21,25 @@ YourBase Test Acceleration is designed to avoid test runs that do not need to be
 
 ---
 
+## Selecting specific tests causes incorrect skips
+
+If you swap between explicitly running different but overlapping sets of tests, e.g.
+
+```sh
+pytest a b
+pytest b c
+pytest a b
+```
+
+YourBase's cache will become poisoned. The results from `a` will be carried through the second run to the third and assumed to be up-to-date, but if you edited `a`'s dependencies between the first and second run then YourBase will not see these edits.
+
+You can prevent this behavior by always passing YourBase the same set of tests—ideally everything—and letting it choose on its own which to run. If you cannot or did not do this, you can work around this issue by purging the cache before changing which set of tests you run:
+
+```sh
+rm -rf ${XDG_CACHE_HOME:-~/.cache}/yourbase
+```
+
+---
 ## Unittest setUp or tearDown overrides lead to incorrect test skipping
 
 If you are using [unittest](https://docs.python.org/3/library/unittest.html) and define your own `setUp` or `tearDown` functions, be sure they call `super` before performing other actions:
@@ -40,7 +59,7 @@ If you are not defining your own `setUp` and `tearDown` functions, you don't nee
 
 ---
 
-## __Sqlite3 module not found
+## `__sqlite3` module not found
 If you run into errors about the _sqlite3 module not being found, follow the below steps:
 
 1. Install <a href="https://www.sqlite.org/quickstart.html">sqlite3</a>
