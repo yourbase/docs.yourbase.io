@@ -10,6 +10,11 @@ permalink: /releases
 
 ## Python
 
+- 7.1.0 (2021-11-19)
+  - Test selection graph is now stored in SQLite
+  - Change detection AST data is generated with a new, faster parser
+  - Coverage support - enable coverage generation by exporting
+    "YOURBASE_GENERATE_COVERAGE=true"
 - 7.0.8 (2021-10-06)
   - Fixed a bug with relative path for tests
 - 7.0.7 (2021-10-04)
