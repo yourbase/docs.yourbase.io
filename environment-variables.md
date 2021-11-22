@@ -129,6 +129,18 @@ This setting is most beneficial when collaborating with the YourBase Test Accele
 
 ---
 
+## YOURBASE_GENERATE_COVERAGE
+Type: `bool-ish (0, false, off, 1, true, on)`
+
+Default: `off`
+
+When on, YourBase Test Acceleration will generate a coverage database including
+coverage data from previous runs.
+
+This setting will remove the need to enable coverage via the standard pytest or
+coverage commandline options.
+---
+
 ## YOURBASE_DISABLE
 Type: `bool-ish (0, false, off, 1, true, on)`
 
