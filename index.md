@@ -39,3 +39,8 @@ Yes. Under no circumstance do your code or your dependency graphs ever touch You
 
 ## Is it stable?
 The library is currently in Beta. While we're confident in the reliability of our offering, we're making improvements all the time. If you identify any issues, please let us know at [support@yourbase.io](mailto:support@yourbase.io) and we will look into them quickly.
+
+---
+
+## Beta Product
+Please note that YourBase Test Acceleration is in beta. We greatly appreciate reporting any issues that you find and working with us as we resolve those issues as quickly as we can.
