@@ -85,7 +85,7 @@ YourBase Test Acceleration and [pytest-xdist](https://pypi.org/project/pytest-xd
 
 ## Cache poisoning
 
-YourBase's acceleration cache can be poisoned when using command-line options to manually select tests (e.g. 'pytest path/to/test.py' or 'pytest -k name_of_test'). If a change causes another test to "want" to run but the test isn't selected by pytest, it will not be queued up to run next time it is.
+YourBase's acceleration cache can be poisoned when using command-line options to manually select tests (e.g. `pytest path/to/test.py` or `pytest -k name_of_test`). If a change causes another test to "want" to run but the test isn't selected by pytest, it will not be queued up to run next time it is.
 
 To work around this issue, blow away the YourBase cache before you change which tests you want to manually run:
 
