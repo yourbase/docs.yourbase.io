@@ -1,15 +1,19 @@
 ---
 layout: default
-title: Pytest
+title: pytest
 nav_order: 1
 parent: Getting started
 permalink: /getting-started/pytest
 ---
 
-# Try in pytest
+# pytest + YourBase
 {:.no_toc}
 
-This page will walk you through how to run YourBase Test Acceleration with the [pytest testing framework](https://docs.pytest.org/en/6.2.x/). The quickest way to get started with it is to use it in the sample project provided.
+On this page you'll learn how to accelerate your [pytest][pytest] tests with YourBase.
+The quickest way to get started is to use a sample project; in this guide, we'll use the
+open source project for the Unleash Python client.
+
+[pytest]: https://pytest.org
 
 Table of contents
 {: .text-delta }
@@ -25,17 +29,15 @@ YourBase Test Acceleration’s pytest hooks ensure that, by default:
 - It runs without any additional configuration.
 - It runs irrespective of how you invoke the tests to run—be it via Makefile, Docker, or anything else—without any other setup.
 
----
-
 ## Prerequisites
-Make sure that, on your machine or on your virtual environment:
-- Tests are running successfully with [pytest](https://docs.pytest.org/en/6.2.x/) before installing YourBase Test Acceleration.
-- [YourBase Test Acceleration is installed](../install.md).
-- [Git is installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+- Make sure tests are running successfully with pytest before installing YourBase.
+- [Install YourBase][install].
+- Your project must use Git and must have at least one commit. Git must be installed.
+- Your Git workspace should be clean.
 
----
+[install]: ../install.md
 
-## Example usage in a sample project
+## Enable acceleration for a sample project
 
 ### Step 1: Set up the specified sample project on your machine as shown below:
 {:.no_toc}
