@@ -7,18 +7,24 @@ permalink: /system-requirements
 ---
 
 # System requirements
-YourBase Test Acceleration is supported on the below technical stack.
+YourBase Test Acceleration is supported on the below technical stacks.
 
 ## Platforms
-- Linux
-- MacOS: All except those with the M1 chip
+- Linux x86_64
+- Linux ARM
+- macOS Intel
+- (experimental) macOS M1
+
+(Run a stack that needs support? [Let us know!](mailto:python@yourbase.io))
 
 ## Languages & testing frameworks
-- Python 2.7+ and Python 3.5+ that use the following testing frameworks:
-  - [pytest](https://docs.pytest.org/en/6.2.x/)
-  - [unittest](https://docs.python.org/3/library/unittest.html)
+YourBase supports the following testing frameworks and Python versions:
+- [pytest](https://docs.pytest.org/en/6.2.x/) (Python 2.7 and 3.5+)
+- [unittest](https://docs.python.org/3/library/unittest.html) (Python 2.7 and 3.5+)
+- [django.test](https://docs.djangoproject.com/en/3.2/topics/testing/) (Python 2.7 and 3.5+)
+- [Testify](https://github.com/yelp/testify) (Python 3.5+)
 
-_Note: Any web frameworks, such as [Django](https://www.djangoproject.com/), that are built atop the above testing frameworks, are also supported._
+_Note: YourBase implicitly supports frameworks that extend any of the above frameworks._
 
 ## Version control
 The library can accelerate tests only for codebases that are version-controlled using [Git](https://git-scm.com/). 
